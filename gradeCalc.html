@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>حاسبة الدرجات 🎓🎓</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="/scripts.js"></script>
   </head>
   <body>
     <div class="wrapper">
-      <h1>الحاسبة 🔢</h1>
+      <h1 class="title">الحاسبة 🔢</h1>
 
       <div class="directions">أدخل درجاتك، كل درجة في الحقل الخاص بها</div>
 
@@ -21,7 +22,7 @@
         id="submitButton"
         type="button"
         value="calculate"
-        onClick="submit()"
+        onClick="grades()"
       />
 
       <p>مجموع درجاتك (بالأرقام) هو</p>
